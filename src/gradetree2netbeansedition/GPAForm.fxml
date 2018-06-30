@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="150.0" prefWidth="378.0" stylesheets="@../darkSnake.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gradetree2netbeansedition.GPAFormController">
+   <children>
+      <Label layoutX="28.0" layoutY="33.0" prefHeight="17.0" prefWidth="103.0" text="Weighted Average" />
+      <Label fx:id="weightedAverageGPA" layoutX="41.0" layoutY="56.0" styleClass="GPA" text="0.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="171.0" layoutY="33.0" prefHeight="17.0" prefWidth="103.0" text="GPA (out of 4.0)" />
+      <Label fx:id="GPA4" layoutX="171.0" layoutY="56.0" styleClass="GPA" text="0.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="286.0" layoutY="33.0" prefHeight="17.0" prefWidth="103.0" text="Grade Letter" />
+      <Label fx:id="GradeLetter" layoutX="291.0" layoutY="56.0" styleClass="GPA" text="A">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

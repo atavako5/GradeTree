@@ -1,0 +1,103 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 22, 2017, 10:57:25 PM
+    Author     : AliMain
+*/
+
+
+
+.root{
+    -fx-background-color: 	#152c43;
+   
+}
+.buttons{
+    -fx-background-color:		#bddac8;
+    -fx-background-radius: 10px;
+}
+.label{
+    -fx-text-fill: #fcfaf9;
+    
+}
+.GPA{
+    -fx-text-fill: #E46A6B;
+    
+}
+.tree-table-view{
+-fx-background-color:		#152c43;
+-fx-border-color: #8993a2;
+-fx-border-width: 5px;
+
+}
+.tree-table-view .column-header .label {
+ -fx-text-fill: #fcfaf9;
+ 
+}
+.menu-bar .label{
+   -fx-text-fill: #fcfaf9; 
+}
+.menu-bar,.menu,.menu-item{
+  -fx-background-color:		#8993a2;
+     -fx-control-inner-background: #8993a2;
+    -fx-alignment: BOTTOM_LEFT;
+}
+
+.tree-table-view .column-header {
+ -fx-background-color: 		#8993a2;
+ 
+}
+ 
+.tab-pan .tab-header-background,.tab {
+ -fx-background-color: 		#8993a2;
+   -fx-background-radius: 5px;
+
+}
+.tab-label{
+    -fx-text-fill: #fcfaf9; 
+}
+
+.tab-pane>*.tab-header-area>*.tab-header-background 
+{
+   -fx-background-color: -fx-outer-border, -fx-text-box-border, #8993a2;
+        -fx-border-color:#8993a2;
+      
+            -fx-border-width: 20px;
+}
+.tab:selected, .tab-label:selected{
+   -fx-text-fill: #152c43;
+   -fx-background-color:#bddac8;
+}
+ 
+.tab:selected .tab-label{
+   -fx-text-fill: #152c43;
+   
+}
+ 
+.tree-table-view .label{
+  -fx-text-fill: #fcfaf9;  
+}
+.tree-table-view{
+ -fx-background-color:	#8993a2; 
+}
+
+.slider .axis{
+    -fx-tick-label-fill :#fcfaf9;
+}
+.slider {
+    -fx-color:#bddac8;
+    -fx-control-inner-background: #fcfaf9;
+    
+}
+.text-field{
+      -fx-background-radius: 10px;
+    
+}
+.separator *.line { 
+-fx-border-style: solid;
+-fx-border-width: 1px;
+ -fx-border-color: #8993a2; 
+}
+
